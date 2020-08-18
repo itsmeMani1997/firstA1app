@@ -1,0 +1,16 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+.stb{
+    left: 0;
+    right: 0;
+    top: o;
+    background-color: white;
+    box-shadow:0 0 1px 0 black;
+    color: darkslategray;
+    height: 70px;
+}
+.bag{
+    margin-left: 500px;
+    margin-top: 30px;
+}
