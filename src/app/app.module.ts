@@ -21,7 +21,6 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatCardModule} from '@angular/material/card';
 import { MatBottomSheetModule} from '@angular/material/bottom-sheet';
 import { MatTableModule } from '@angular/material/table';
-import {ClipboardModule} from '@angular/cdk/clipboard';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import {PortalModule} from '@angular/cdk/portal';
 import {ScrollingModule} from '@angular/cdk/scrolling';
@@ -59,12 +58,7 @@ import { LoginComponent } from './login/login.component';
     RoadsterComponent,
     LoginComponent,
 
-
-    
-
-
-    
-  ],
+],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -86,7 +80,7 @@ import { LoginComponent } from './login/login.component';
     MatMenuModule,
     MatCardModule,
     MatBottomSheetModule, MatTableModule ,
-    ClipboardModule,DragDropModule,PortalModule,ScrollingModule,CdkStepperModule,CdkTableModule,CdkTreeModule,
+    DragDropModule,PortalModule,ScrollingModule,CdkStepperModule,CdkTableModule,CdkTreeModule,
     FontAwesomeModule,A11yModule,MatCarouselModule ,NgbModule,MatGridListModule,MatRadioModule,MatTooltipModule,MatSnackBarModule
   ],
   providers: [],
